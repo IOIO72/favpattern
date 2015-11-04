@@ -1,4 +1,4 @@
-# ioioPen - A boilerplate for Gulp, Bower, Jade, Sass, jQuery and BrowerSync
+# ioioPen - A boilerplate code for Gulp, Bower, Jade, Sass, jQuery and BrowerSync
 
 I love to use [CodePen](http://codepen.io/) to start experimenting seamlessly from a first inspiration to soon visible
 results.
@@ -6,15 +6,15 @@ results.
 Sometimes these experiments are seeds for larger projects, which require a version control system and some other stuff,
 which CodePen doesn't provide.
 
-That's the reason why I set up this boilerplate, which I call **ioioPen** in derivation of the name _CodePen_ and my
-alias name _IOIO_.
+That's the reason why I set up this boilerplate code, which I call **ioioPen** in derivation of the name _CodePen_ and
+my alias name _IOIO_.
 
 My default setup on CodePen is [Jade](http://jade-lang.com/), [SASS](http://sass-lang.com/) and
 [jQuery](http://jquery.com/).
 
 **ioioPen** uses this setup and configures the fantastic [BrowserSync](http://www.browsersync.io/) to get a similar
-developing experience to CodePen. I also added an auto prefixer for CSS, source maps and code checkers for CSS, HTML and
-JavaScript.
+development experience to CodePen. I also added an auto prefixer for CSS, source maps and code checkers for CSS, HTML
+and JavaScript.
 
 It is based on the JavaScript runtime [Node.js](https://nodejs.org/), the task automation system
 [Gulp.js](http://gulpjs.com/) and the package manager [Bower](http://bower.io/) to get jQuery.

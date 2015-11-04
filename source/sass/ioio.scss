@@ -1,3 +1,23 @@
-body {
+$margin: 2em;
 
+body {
+  font-family: sans-serif;
+  margin: $margin;
+}
+
+code {
+  display: inline-block;
+  background-color: gainsboro;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin: 2px;
+}
+
+article {
+  &.license {
+    display: block;
+    margin: 0 0-$margin;
+    padding: 1em $margin;
+    background-color: whitesmoke;
+  }
 }
