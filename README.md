@@ -13,7 +13,7 @@ My default setup on CodePen is [Jade](http://jade-lang.com/), [SASS](http://sass
 [jQuery](http://jquery.com/).
 
 **ioioPen** uses this setup and configures the fantastic [BrowserSync](http://www.browsersync.io/) to get a similar
-developing experience to CodePen. I also added a auto prefixer for CSS, source maps and code checkers for CSS, HTML and
+developing experience to CodePen. I also added an auto prefixer for CSS, source maps and code checkers for CSS, HTML and
 JavaScript.
 
 It is based on the JavaScript runtime [Node.js](https://nodejs.org/), the task automation system
@@ -37,7 +37,7 @@ gulp serve
 
 This command builds the project, watches code changes and launches web browser and updates on code changes.
 
-## Watch (Default)
+## Watch (default)
 
 ```sh
 gulp watch
