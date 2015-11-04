@@ -1,0 +1,14 @@
+extends ./layouts/default
+block variables
+    - var title = "ioioPen";
+
+block scripts
+    script(src='js/app/ioio.app.js')
+
+block content
+
+    article.readme
+        include:markdown ../../README.md
+
+    article.license
+        include:markdown ../../LICENSE.md

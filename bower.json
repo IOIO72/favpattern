@@ -1,0 +1,30 @@
+{
+  "name": "ioioPen",
+  "description": "Kickstart for projects based on Gulp, Bower, Jade, Sass and jQuery",
+  "main": "source/js/app/ioio.app.js",
+  "authors": [
+    "Tamio Patrick Honma"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "kickstart",
+    "boilerplate",
+    "gulp",
+    "jade",
+    "sass",
+    "jQuery"
+  ],
+  "moduleType": [],
+  "homepage": "http://www.honma.de/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
