@@ -74,6 +74,6 @@ Please use feature or bug branches for your pull / merge requests like `feature/
 
 # License
 
-MIT licenced
+MIT licensed
 
 Copyright (c) 2015 Tamio Patrick Honma, <http://honma.de>
