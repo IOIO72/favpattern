@@ -1,4 +1,4 @@
-# ioioPen - A boilerplate code for Gulp, Bower, Jade, Sass, jQuery and BrowerSync
+# ioioPen - A lightweight starter for Gulp, Bower, Jade, Sass, jQuery and BrowerSync
 
 I love to use [CodePen](http://codepen.io/) to start experimenting seamlessly from a first inspiration to soon visible
 results.
@@ -24,8 +24,10 @@ It is based on the JavaScript runtime [Node.js](https://nodejs.org/), the task a
 1. If you didn't before, install [Node.js](https://nodejs.org/)
 1. If you didn't before, install [Gulp.js](http://gulpjs.com/) `npm install --global gulp`
 1. If you didn't before, install [Bower](http://bower.io/) `npm install -g bower`
-1. Enter `npm install` in the project's directory.
-1. Enter `bower install` in the project's directory.
+1. Enter `git clone https://github.com/IOIO72/ioioPen.git yourProjectsName`
+1. Enter `cd yourProjectsName`
+1. Enter `npm install`
+1. Enter `bower install`
 
 # Development workflow
 
@@ -67,6 +69,8 @@ Be encouraged to ...
 * bug reports
 * feature requests
 * pull requests / merge requests
+
+Please use feature or bug branches for your pull / merge requests like `feature/(YOURFEATURE)` or `bug/(YOURBUGFIX)`.
 
 # License
 

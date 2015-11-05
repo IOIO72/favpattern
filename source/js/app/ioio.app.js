@@ -1,5 +1,5 @@
 // Author: Tamio Patrick Honma <tamio@honma.de>
-// Licence: MIT
+// License: MIT
 
 // just rename `ioioApp` to your app's name in the whole object.
 window.ioioApp = {
@@ -10,7 +10,6 @@ window.ioioApp = {
 
     Event: {
         init: function() {
-            // ensure, the document is ready for JavaScript.
             $(document).ready(this.onDocumentReady);
         },
         onDocumentReady: function() {

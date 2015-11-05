@@ -3,3 +3,4 @@
 /build
 /.idea
 /source/js/vendor/jquery.min.js
+/npm-debug.log
