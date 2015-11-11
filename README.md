@@ -74,7 +74,8 @@ Please use feature or bug branches for your pull / merge requests like `feature/
 
 # Get in touch
 
-You can chat with me about this and other projects of me on Slack.<br>
+You can chat with me about this and other projects of me on Slack.
+
 [Join my Slack-Chat](https://tamiohonma.typeform.com/to/z1YOoo)
 
 # License
