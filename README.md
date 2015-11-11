@@ -72,6 +72,11 @@ Be encouraged to ...
 
 Please use feature or bug branches for your pull / merge requests like `feature/(YOURFEATURE)` or `bug/(YOURBUGFIX)`.
 
+# Get in touch
+
+You can chat with me about this and other projects of me on Slack.<br>
+[Join my Slack-Chat](https://tamiohonma.typeform.com/to/z1YOoo)
+
 # License
 
 MIT licensed
