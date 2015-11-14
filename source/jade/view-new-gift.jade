@@ -1,0 +1,19 @@
+extends ./layouts/default
+block variables
+    - var title = "View: New Gift";
+
+block meta
+    meta(name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=2")
+
+block styles
+    link(rel="stylesheet" href="css/view-new-gift.css")
+
+block content
+
+    .new-gift
+        ul.symbols
+            -for(var i=0; i<20; i++)
+                li
+        .the-gift
+            h1 Premium access granted!
+            small 30 days trial

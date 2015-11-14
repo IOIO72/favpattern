@@ -1,0 +1,87 @@
+$symbol-num: 20;
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.new-gift {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: {
+    color: #bbffdd;
+    image: linear-gradient(to top, #699b7e 0%, #bbffdd 49%, #bbffdd 50%, #ffffcc 51%, #ffffff 100%);
+  }
+  ul.symbols {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) rotate(-40deg);
+    transform-origin: center bottom;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    li {
+      &::before {
+        position: absolute;
+        content: '\2605';
+        display: block;
+        animation: {
+          duration: 3s;
+          timing-function: ease-out;
+          iteration-count: infinite;
+        };
+      }
+      @for $i from 0 through $symbol-num {
+        @keyframes praise-#{$i} {
+          0% {
+            bottom: 0;
+            left: 0;
+            transform: scale(1);
+            color: rgba(255,255,255,1);
+          }
+          100% {
+            bottom: 80%;
+            left: -10px + $i * 100;
+            transform: scale(5);
+            color: rgba(255,255,255,0.4);
+          }
+        }
+        &:nth-child(#{$i}) {
+          &::before {
+            animation: {
+              name: praise-#{$i};
+              delay: 0ms + $i * 530;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.the-gift {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 1em 10px;
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  small {
+    color: #666;
+  }
+}
