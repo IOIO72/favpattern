@@ -82,7 +82,7 @@ gulp.task('build', [
 var _watcher = function (blnReload) {
     var arrWatcher = [
         {
-            src: 'source/jade/**/*.jade',
+            src: ['source/jade/**/*.jade', '**/*.md'],
             tasks: ['templates']
         },
         {

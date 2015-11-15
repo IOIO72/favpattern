@@ -1,31 +1,19 @@
-# ioioPen - A lightweight starter for Gulp, Bower, Jade, Sass, jQuery and BrowerSync
+# favPattern: Tamios Favorite UX Patterns
 
-I love to use [CodePen](http://codepen.io/) to start experimenting seamlessly from a first inspiration to soon visible
-results.
+Sometimes I stumble upon ux patterns in apps, websites, consoles and other digital devices I really like. And in some
+moments I get some ux pattern ideas, I start experimenting with.
 
-Sometimes these experiments are seeds for larger projects, which require a version control system and some other stuff,
-which CodePen doesn't provide.
+Here I collect some self made adaptions and experiments of those ux patterns.
 
-That's the reason why I set up this boilerplate code, which I call **ioioPen** in derivation of the name _CodePen_ and
-my alias name _IOIO_.
-
-My default setup on CodePen is [Jade](http://jade-lang.com/), [SASS](http://sass-lang.com/) and
-[jQuery](http://jquery.com/).
-
-**ioioPen** uses this setup and configures the fantastic [BrowserSync](http://www.browsersync.io/) to get a similar
-development experience to CodePen. I also added an auto prefixer for CSS, source maps and code checkers for CSS, HTML
-and JavaScript.
-
-It is based on the JavaScript runtime [Node.js](https://nodejs.org/), the task automation system
-[Gulp.js](http://gulpjs.com/) and the package manager [Bower](http://bower.io/) to get jQuery.
+I copy some experiments to <http://codepen.io/IOIO72> and from time to time I write articles about them in my blog
+<http://www.honma.de>.
 
 # Setup
 
 1. If you didn't before, install [Node.js](https://nodejs.org/)
 1. If you didn't before, install [Gulp.js](http://gulpjs.com/) `npm install --global gulp`
 1. If you didn't before, install [Bower](http://bower.io/) `npm install -g bower`
-1. Enter `git clone https://github.com/IOIO72/ioioPen.git yourProjectsName`
-1. Enter `cd yourProjectsName`
+1. Enter `git clone https://github.com/IOIO72/favPattern.git`
 1. Enter `npm install`
 1. Enter `bower install`
 

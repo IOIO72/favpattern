@@ -14,10 +14,19 @@ code {
 }
 
 article {
-  &.license {
+  &.index, &.license {
     display: block;
     margin: 0 0-$margin;
     padding: 1em $margin;
     background-color: whitesmoke;
+  }
+  &.index {
+    background-color: lemonchiffon;
+  }
+  &.license {
+    background-color: whitesmoke;
+  }
+  &:first-of-type {
+    margin-top: 0-$margin;
   }
 }

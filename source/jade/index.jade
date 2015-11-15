@@ -1,14 +1,14 @@
 extends ./layouts/default
 block variables
-    - var title = "ioioPen";
+    - var title = "favPattern: Tamios Favorite UX Patterns";
 
 block styles
     link(rel="stylesheet" href="css/ioio.css")
 
-block scripts
-    script(src='js/app/ioio.app.js')
-
 block content
+
+    article.index
+        include:marked ../../INDEX.md
 
     article.readme
         include:marked ../../README.md
